@@ -55,7 +55,6 @@ cnt = 0
 print("Processing Images...")
 for label in labels:
     path = 'Animals/' + label
-    cnt = 1
     images_paths = os.listdir(path)
     for image_path in images_paths:
         image = cv2.imread(path + '/' + image_path)
