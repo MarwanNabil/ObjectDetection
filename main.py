@@ -76,14 +76,13 @@ for label in labels:
         for printing images after resizing
         '''
 
-
+        '''
         if(cnt <= 1):
             cv2.imshow(path + '/' + image_path , image_resized)
             cv2.waitKey(0)
             print(path + '/' + image_path)
             cnt = cnt + 1
-
-    break
+        '''
 
 print("Images Done!")
 
